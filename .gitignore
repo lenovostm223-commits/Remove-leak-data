@@ -1,0 +1,50 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Tor hidden service keys and hostname
+tor/hidden_service/
+tor/private_key
+tor/hostname
+
+# Logs
+*.log
+/tmp/tor_notices.log
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Flask session / cache
+instance/
+.webassets-cache
+
+# PDF reports
+reports/
+*.pdf
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
